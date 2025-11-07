@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+**/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package lock files (optional - some prefer to commit these)
+package-lock.json

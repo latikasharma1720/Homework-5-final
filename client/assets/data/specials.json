@@ -1,0 +1,5 @@
+[
+  { "id": "paneer-tikka", "name": "Paneer Tikka", "price": 12.99, "image": "/assets/menu/f1.jpeg", "description": "Grilled cottage cheese with spices." },
+  { "id": "butter-chicken", "name": "Butter Chicken", "price": 14.99, "image": "/assets/menu/f2.jpeg", "description": "Creamy tomato sauce with tender chicken." },
+  { "id": "veg-biryani", "name": "Veg Biryani", "price": 11.50, "image": "/assets/menu/f3.jpeg", "description": "Fragrant basmati rice with mixed veggies." }
+]
