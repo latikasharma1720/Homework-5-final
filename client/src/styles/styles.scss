@@ -13,15 +13,13 @@ $bg-white: #ffffff;
 $error-color: #dc2626;
 $success-color: #059669;
 
-// Peachy/Orange theme colors to match screenshot
+
 $peachy-bg: #fef3e2;
 $peachy-light: #fde8c7;
 $nav-bg: #f5e6d3;
 $nav-active: #d97706;
 
-// ============================================
-// RESET & BASE
-// ============================================
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -80,7 +78,7 @@ img {
 }
 
 // ============================================
-// HEADER - REDESIGNED LAYOUT
+// HEADER 
 // ============================================
 .site-header {
   background: $peachy-light;
@@ -222,7 +220,6 @@ img {
   }
 }
 
-// Additional specificity for NavLink components
 .site-nav li a[href],
 .site-nav li button {
   background: rgba(217, 119, 6, 0.15);
@@ -253,7 +250,7 @@ img {
   }
 }
 
-// Auth Buttons Container (Right Side)
+
 .auth-buttons {
   display: flex;
   align-items: center;
@@ -347,7 +344,7 @@ img {
   }
 }
 
-// Mobile menu toggle (if needed in future)
+
 .mobile-menu-toggle {
   display: none;
   
@@ -356,7 +353,7 @@ img {
   }
 }
 
-// Hide mobile-only items on desktop
+
 .mobile-only {
   display: none;
 
@@ -365,7 +362,7 @@ img {
   }
 }
 
-// Responsive Header Adjustments
+
 @media (max-width: 1024px) {
   .site-header {
     .auth-buttons {
