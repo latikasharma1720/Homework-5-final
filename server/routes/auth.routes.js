@@ -10,7 +10,7 @@ const router = Router();
 const COOKIE_OPTS = {
   httpOnly: true,
   sameSite: "lax",
-  secure: false,          // set true when deploying behind HTTPS
+  secure: false,          
   maxAge: 7 * 24 * 60 * 60 * 1000
 };
 

@@ -12,7 +12,7 @@ router.get("/", requireAuth, async (req, res) => {
     const { data, error } = await supabase
       .from("favorites")
       .select("*")
-      .eq("user_id", userId);  // Changed from r_id to user_id
+      .eq("user_id", userId);  
 
     if (error) throw error;
     res.json(data ?? []);
@@ -32,7 +32,7 @@ router.post("/", requireAuth, async (req, res) => {
     const { data, error } = await supabase
       .from("favorites")
       .insert([{ 
-        user_id: userId,        // Changed from r_id to user_id
+        user_id: userId,        
         item_id, 
         item_name, 
         item_price: price,
@@ -58,7 +58,7 @@ router.delete("/:itemId", requireAuth, async (req, res) => {
     const { error } = await supabase
       .from("favorites")
       .delete()
-      .eq("user_id", userId)   // Changed from r_id to user_id
+      .eq("user_id", userId)   
       .eq("item_id", itemId);
 
     if (error) throw error;
